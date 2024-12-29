@@ -1,89 +1,59 @@
-button{
-    font-size: 60px;
-    height:250px;
-    width:200px;
-    margin-left: 100px;
+/* General Button Styles */
+button {
+    font-size: 20px; /* Smaller font size for better scaling */
+    height: 100px;
+    width: 150px;
+    margin: 10px;
     cursor: pointer;
-    border-radius: 60px;
-    background-color:hsl(39, 50%, 73%);
+    border-radius: 15px;
+    background-color: hsl(39, 50%, 73%);
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s;
 }
 
-.button-1:hover{background-color:hsl(38, 36%, 55%)}
-.button-2:hover{background-color: hsl(38, 36%, 55%);}
-.button-3:hover{background-color: hsl(38, 36%, 55%);}
-.button-4:hover{background-color: hsl(38, 36%, 55%);}
-.button-5:hover{background-color: hsl(38, 36%, 55%);}
-.button-6:hover{background-color: hsl(38, 36%, 55%);}
-.button-7:hover{background-color: hsl(38, 36%, 55%);}
-
-.button-2{
-    margin-left: 60px;
+button:hover {
+    background-color: hsl(38, 36%, 55%);
 }
 
-.button-3{
-    margin-left: 60px;
+/* Flex Container for Buttons */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
 }
 
-.button-6{
-    margin-top: 100px;
-    margin-left: 530px;
+/* Text Styling */
+p {
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: center;
 }
 
-.button-7{
-    margin-left: 60px;
+/* Responsive Design */
+@media (max-width: 768px) {
+    button {
+        font-size: 16px;
+        height: 80px;
+        width: 120px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
 
-.button-4{
-    margin-left: 60px;
+@media (max-width: 480px) {
+    button {
+        font-size: 14px;
+        height: 70px;
+        width: 100px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
-
-.button-5{
-    margin-left: 60px;
-}
-
-.ayur{
-    font-size: 60px;
-    margin-top: -350px;
-    margin-left: 140px;
-}
-
-.arya{
-    font-size: 60px;
-    margin-top: -130px;
-    margin-left: 400px;
-}
-
-.anushka{
-    font-size: 60px;
-    margin-top: -130px;
-    margin-left: 870px;
-}
-
-.akshara{
-    font-size: 60px;
-    margin-top: -130px;
-    margin-left: 620px;
-}
-
-.akshay{
-    font-size: 60px;
-    margin-top: -130px;
-    margin-left: 1150px;
-}
-
-.ashwin{
-    font-size: 60px;
-    margin-left: 535px;
-    margin-top: 280px;
-}
-
-.aryan{
-    font-size: 60px;
-    margin-top: -130px;
-    margin-left: 810px;
-}
-
-    
-
-
-
